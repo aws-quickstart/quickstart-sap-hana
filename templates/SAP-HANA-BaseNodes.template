@@ -2658,11 +2658,11 @@
                                 {
                                     "Ref": "SAPInstanceNum"
                                 },
-                                " -p ",
+                                " -p '",
                                 {
                                     "Ref": "HANAMasterPass"
                                 },
-                                " -n ",
+                                "' -n ",
                                 {
                                     "Ref": "HANAMasterHostname"
                                 },
